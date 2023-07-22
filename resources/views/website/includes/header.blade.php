@@ -79,7 +79,7 @@
                 <div class="col-lg-3 col-md-3 col-7">
 
                     <a class="navbar-brand" href="{{route('home')}}">
-                        <img src="{{asset('/')}}website/assets/images/logo/logo.svg" alt="Logo">
+                        <img src="{{asset('/')}}website/assets/images/logo/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                     </a>
 
                 </div>
@@ -92,11 +92,9 @@
                                 <div class="select-position">
                                     <select id="select1">
                                         <option selected>All</option>
-                                        <option value="1">option 01</option>
-                                        <option value="2">option 02</option>
-                                        <option value="3">option 03</option>
-                                        <option value="4">option 04</option>
-                                        <option value="5">option 05</option>
+                                        @foreach($categories as $category )
+                                            <li><a href="#">{{$category->name}}</a></li>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
@@ -116,7 +114,7 @@
                         <div class="nav-hotline">
                             <i class="lni lni-phone"></i>
                             <h3>Hotline:
-                                <span>(+100) 123 456 7890</span>
+                                <span>(+88) 01751161245</span>
                             </h3>
                         </div>
                         <div class="navbar-cart">
@@ -258,18 +256,10 @@
                 <div class="nav-social">
                     <h5 class="title">Follow Us:</h5>
                     <ul>
-                        <li>
-                            <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="lni lni-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
-                        </li>
+                        <li><a href="https://www.facebook.com/forhad.cse/"><i class="lni lni-facebook-filled"></i></a></li>
+                        <li><a href="https://twitter.com/MdForha47110222"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="https://www.instagram.com/forhad511/"><i class="lni lni-instagram"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a></li>
                     </ul>
                 </div>
 

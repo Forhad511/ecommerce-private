@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12">
                         <div class="footer-logo">
-                            <a href="index.html">
-                                <img src="{{asset('/')}}website/assets/images/logo/white-logo.svg" alt="#">
+                            <a href="{{route('home')}}">
+                                <img src="{{asset('/')}}website/assets/images/logo/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                             </a>
                         </div>
                     </div>
@@ -41,13 +41,13 @@
 
                         <div class="single-footer f-contact">
                             <h3>Get In Touch With Us</h3>
-                            <p class="phone">Phone: +1 (900) 33 169 7720</p>
+                            <p class="phone">Phone: +880 1751161245</p>
                             <ul>
                                 <li><span>Monday-Friday: </span> 9.00 am - 8.00 pm</li>
                                 <li><span>Saturday: </span> 10.00 am - 6.00 pm</li>
                             </ul>
                             <p class="mail">
-                                <a href="https://demo.graygrids.com/cdn-cgi/l/email-protection#5b282e2b2b34292f1b2833342b3c29323f2875383436"><span class="__cf_email__" data-cfemail="98ebede8e8f7eaecd8ebf0f7e8ffeaf1fcebb6fbf7f5">[email&#160;protected]</span></a>
+                                <a href=""><span class="__cf_email__" data-cfemail="98ebede8e8f7eaecd8ebf0f7e8ffeaf1fcebb6fbf7f5">[email&#160;protected]</span></a>
                             </p>
                         </div>
 
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-lg-4 col-12">
                         <div class="copyright">
-                            <p>{{date('y-m-d')}} Design & Development<a href="https://.com/" rel="nofollow" target="_blank">keep Tuch</a></p>
+                            <p>{{date('Y')}} Design & Development by Mr.Forhad Hossain Owns of <a href="https://www.fiverr.com/keeptouch?up_rollout=true" rel="nofollow" target="_blank">keepTouch</a></p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
@@ -129,10 +129,10 @@
                             <li>
                                 <span>Follow Us On:</span>
                             </li>
-                            <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
-                            <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                            <li><a href="https://www.facebook.com/forhad.cse/"><i class="lni lni-facebook-filled"></i></a></li>
+                            <li><a href="https://twitter.com/MdForha47110222"><i class="lni lni-twitter-original"></i></a></li>
+                            <li><a href="https://www.instagram.com/forhad511/"><i class="lni lni-instagram"></i></a></li>
+                            <li><a href=""><i class="lni lni-google"></i></a></li>
                         </ul>
                     </div>
                 </div>
